@@ -1,0 +1,17 @@
+[package]
+name = "rust-algorithm"
+version = "0.1.0"
+edition = "2018"
+authors = ["tx7do"]
+
+repository = "https://github.com/tx7do/rust-algorithm"
+readme = "README.md"
+keywords = ["quick-sort", "slow-sort", "selection-sort", "merge-sort", "insertion-sort"]
+categories = ["algorithms", "data-structures"]
+license = "MIT"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[dev-dependencies]
+rand = "0.8"

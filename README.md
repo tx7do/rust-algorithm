@@ -1,0 +1,30 @@
+# rust-algorithm
+
+## [Sort Algorithms](./src/sorting)
+
+- [x] [Bubble](./src/sorting/bubble_sort.rs)
+- [x] [Bucket](./src/sorting/bucket_sort.rs)
+- [x] [Cocktail-Shaker](./src/sorting/cocktail_sort.rs)
+- [x] [Comb](./src/sorting/comb_sort.rs)
+- [x] [Counting](./src/sorting/counting_sort.rs)
+- [x] [Gnome](./src/sorting/gnome_sort.rs)
+- [x] [Heap](./src/sorting/heap_sort.rs)
+- [x] [Insertion](./src/sorting/insertion_sort.rs)
+- [x] [Merge](./src/sorting/merge_sort.rs)
+- [x] [Odd-even](./src/sorting/odd_even_sort.rs)
+- [x] [Quick](./src/sorting/quick_sort.rs)
+- [x] [Radix](./src/sorting/radix_sort.rs)
+- [x] [Selection](./src/sorting/selection_sort.rs)
+- [x] [Shell](./src/sorting/shell_sort.rs)
+- [ ] [Slow](./src/sorting/slow_sort.rs)
+- [x] [Stooge](./src/sorting/stooge_sort.rs)
+- [ ] [Tim](./src/sorting/tim_sort.rs)
+- [ ] [Intro](./src/sorting/intro_sort.rs)
+- [ ] [Pdq](./src/sorting/pdq_sort.rs)
+
+## [Search Algorithms](./src/searching)
+
+- [x] [Linear](./src/searching/linear_search.rs)
+- [x] [Exponential](./src/searching/exponential_search.rs)
+- [x] [Interpolation](./src/searching/interpolation_search.rs)
+- [x] [Binary](./src/searching/binary_search.rs)
