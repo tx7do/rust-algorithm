@@ -1,5 +1,5 @@
 /// Bubble sort
-pub fn bubble_sort(arr: &mut [i32]) {
+pub fn bubble_sort<T: Ord>(arr: &mut [T]) {
     let mut swapped = true;
     while swapped {
         // No swap means array is sorted.
@@ -16,7 +16,7 @@ pub fn bubble_sort(arr: &mut [i32]) {
 /// Optimized bubble sort
 ///
 /// Memorize last swapped index to avoid unnecessary check.
-pub fn bubble_sort_optimized(arr: &mut [i32]) {
+pub fn bubble_sort_optimized<T: Ord>(arr: &mut [T]) {
     let mut new_len: usize;
     let mut len = arr.len();
     loop {

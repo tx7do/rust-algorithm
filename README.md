@@ -16,7 +16,7 @@
 - [x] [Radix](./src/sorting/radix_sort.rs)
 - [x] [Selection](./src/sorting/selection_sort.rs)
 - [x] [Shell](./src/sorting/shell_sort.rs)
-- [ ] [Slow](./src/sorting/slow_sort.rs)
+- [x] [Slow](./src/sorting/slow_sort.rs)
 - [x] [Stooge](./src/sorting/stooge_sort.rs)
 - [ ] [Tim](./src/sorting/tim_sort.rs)
 - [ ] [Intro](./src/sorting/intro_sort.rs)

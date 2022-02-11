@@ -1,3 +1,14 @@
+
+/// Stooge Sort
+pub fn stooge_sort<T: Ord>(arr: &mut [T]) {
+    let len = arr.len();
+    if len == 0 {
+        return;
+    }
+
+    _stooge_sort(arr, 0, len - 1);
+}
+
 fn _stooge_sort<T: Ord>(arr: &mut [T], start: usize, end: usize) {
     if arr[start] > arr[end] {
         arr.swap(start, end);
@@ -14,11 +25,8 @@ fn _stooge_sort<T: Ord>(arr: &mut [T], start: usize, end: usize) {
     _stooge_sort(arr, start, end - k);
 }
 
-pub fn stooge_sort<T: Ord>(arr: &mut [T]) {
-    let len = arr.len();
-    if len == 0 {
-        return;
-    }
-
-    _stooge_sort(arr, 0, len - 1);
+#[cfg(test)]
+mod base {
+    use super::*;
+    base_cases!(stooge_sort);
 }

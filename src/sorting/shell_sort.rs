@@ -1,8 +1,8 @@
 /// Marcin Ciura's gap sequence.
 pub const MARCIN_GAPS: [usize; 8] = [701, 301, 132, 57, 23, 10, 4, 1];
 
-/// Shellsort
-pub fn shell_sort(arr: &mut [i32]) {
+/// Shell-sort
+pub fn shell_sort<T: Ord>(arr: &mut [T]) {
     let len = arr.len();
     for gap in MARCIN_GAPS.iter() {
         let mut i = *gap; // Type of gap is `&usize`. Deference it!

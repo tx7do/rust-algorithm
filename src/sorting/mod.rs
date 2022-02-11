@@ -10,7 +10,7 @@ pub use self::quick_sort::{
 };
 
 pub mod slow_sort;
-// pub use self::slow_sort::slow_sort;
+pub use self::slow_sort::slow_sort;
 
 pub mod insertion_sort;
 pub use self::insertion_sort::insertion_sort;

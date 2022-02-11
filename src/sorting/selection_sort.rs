@@ -1,5 +1,5 @@
 /// Selection sort.
-pub fn selection_sort(arr: &mut [i32]) {
+pub fn selection_sort<T: Ord>(arr: &mut [T]) {
     let len = arr.len();
     // Rust would skip iteration if lower bound >= upper bound.
     // Hence, no need to `len - 1`.
